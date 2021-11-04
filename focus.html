@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body onload="onLoad()">
+    <nav>
+        <img id="logo" src="https://www.datacenterknowledge.com/sites/datacenterknowledge.com/files/wp-content/uploads/2013/04/linux-tux.png" alt="Tux" />
+        <div>
+            <a href="home.html">Home</a>
+            <a href="mouseenter.html">mouseenter</a>
+            <a href="mouseover.html">mouseover</a>
+            <a href="mousemove.html">mousemove</a>
+            <a href="keydown.html">keydown</a>
+            <a href="onchange.html">onchange</a>
+            <a href="onload.html">onload</a>
+            <a href="focus.html">focus</a>
+        </div>
+    </nav>
+    <main>
+        <h3>Semana 3 - DOM: Evento onfocus e onblur</h3>
+        <hr />
+        <br>
+        <div class="alinhamento-texto-focus">
+            Evento onfocus(): O evento onfocus indica se o documento ou qualquer elemento dentro do documento está com o foco ativo.
+            <br/> <br/> Evento onblur(): O evento onblur ocorre quando um objeto perde o foco.<br/> O evento onblur é mais frequentemente usado com o código de validação de formulário (por exemplo, quando o usuário deixa um campo de formulário).
+        </div>
+        <div class="alinhamento-texto-focus">
+            <strong>Clique dentro e fora:</strong>
+            <input type="text" id="exemploFocus" onfocus="dentro()" onblur="fora()">
+        </div>
+        <main>
+            <footer></footer>
+            <script src="scripts/script-focus.js"></script>
+</body>
+
+</html>

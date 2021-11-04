@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <nav>
+        <img id="logo" src="https://www.datacenterknowledge.com/sites/datacenterknowledge.com/files/wp-content/uploads/2013/04/linux-tux.png" alt="Tux" />
+        <div>
+            <a href="home.html">Home</a>
+            <a href="mouseenter.html">mouseenter</a>
+            <a href="mouseover.html">mouseover</a>
+            <a href="mousemove.html">mousemove</a>
+            <a href="keydown.html">keydown</a>
+            <a href="onchange.html">onchange</a>
+            <a href="onload.html">onload</a>
+            <a href="focus.html">focus</a>
+
+        </div>
+    </nav>
+    <main>
+        <h3>Semana 3 - DOM: Evento keydown e keyup</h3>
+        <hr />
+        <br>
+        <div class="alinhamento">
+            Evento onkeywdown(): é disparado quando uma tecla é pressionada.<br/><br/> Evento onkeyup(): é o evento que detecta o contrário, quando você solta a tecla.<br/>
+
+        </div>
+        <div class="alinhamento">
+            Digite algo: <input type="text" id="caixa" onkeydown="down()" onkeyup="up()">
+            <div id="status"></div>
+        </div>
+        <br>
+        <main>
+            <footer></footer>
+            <script src="scripts/script-keydown.js"></script>
+</body>
+
+</html>
